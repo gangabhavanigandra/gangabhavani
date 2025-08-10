@@ -1,108 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gandra Gangabhavani | Student Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      background-color: #fefefe;
-      color: #444;
-    }
-    header {
-      background-color: #e3f2fd;
-      color: #0d47a1;
-      padding: 2rem;
-      text-align: center;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      background-color: #bbdefb;
-      padding: 0.75rem;
-    }
-    nav a {
-      color: #0d47a1;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      color: #1976d2;
-    }
-    ul {
-      list-style-type: square;
-      padding-left: 1.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #e3f2fd;
-      color: #0d47a1;
-    }
-    a {
-      color: #1565c0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangabhavani Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8fff8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d9fdd3;
+            padding: 20px;
+            border-bottom: 3px solid lightgreen;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #2f6b2f;
+        }
+
+        nav {
+            background-color: #e9ffe9;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid lightgreen;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #2f6b2f;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #2f6b2f;
+            border-left: 4px solid lightgreen;
+            padding-left: 10px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            margin: 8px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .buttons a:hover {
+            background-color: #3b8e3b;
+        }
+
+        .education, .skills {
+            border: 2px solid lightgreen;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 8px;
+            background-color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #d9fdd3;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 3px solid lightgreen;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>Gandra Gangabhavani</h1>
-    <p>Student | CSE (AIML) | Malla Reddy Engineering College and Management Sciences</p>
-  </header>
+    <header>
+        <h1>Gangabhavani Gandra</h1>
+        <p>B.Tech (CSE - ALML) Student</p>
+    </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#goals">Learning Goals</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Gandra Gangabhavani, a second-year engineering student at Malla Reddy Engineering College and Management Sciences, Hyderabad. I'm pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning (CSE-AIML).</p>
-    <p>I love learning new things, reading books, and watching educational videos. I'm curious about how technology can solve real-world problems and excited to grow my skills in AI and software development.</p>
-  </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Gangabhavani Gandra, a passionate and dedicated student pursuing B.Tech in CSE (ALML) 
+            at Mallareddy Engineering College and Management Sciences.  
+            I aim to grow as a professional in the field of technology, continuously improving my skills 
+            and contributing to meaningful projects.
+        </p>
+    </section>
 
-  <section id="goals">
-    <h2>Learning Goals & Future Projects</h2>
-    <ul>
-      <li>Build a simple machine learning model using Python</li>
-      <li>Create a personal blog using HTML, CSS, and JavaScript</li>
-      <li>Explore fault tolerance techniques in Wireless Sensor Networks</li>
-      <li>Develop a mini project on environmental monitoring using sensors</li>
-    </ul>
-  </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <p><strong>B.Tech (CSE - ALML):</strong> Mallareddy Engineering College and Management Sciences - 7.8 CGPA (Pursuing)</p>
+            <p><strong>Intermediate:</strong> Suguna College, Kodad - 9.3 GPA</p>
+            <p><strong>SSC:</strong> Zilla Parishath High School, Board of Secondary Education Telangana - 10.0 GPA</p>
+        </div>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java (currently learning)</li>
-      <li>Communication skills</li>
-      <li>Team collaboration</li>
-      <li>Problem-solving mindset</li>
-      <li>Curiosity and eagerness to learn</li>
-    </ul>
-  </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>HTML & CSS Basics</li>
+                <li>MS Office</li>
+                <li>Basic Computer Skills</li>
+                <li>Good Communication Skills</li>
+                <li>Willingness to Learn New Technologies</li>
+            </ul>
+        </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:gandragangabhavani@gmail.com">gandragangabhavani@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/gangabhavanigandra/RTRP" target="_blank">github.com/gangabhavanigandra/RTRP</a></p>
-  </section>
+    <section id="contact">
+        <h2>My Links & Uploads</h2>
+        <div class="buttons">
+            <a href="YOUR_LINKEDIN_URL" target="_blank">LinkedIn Profile</a>
+            <a href="YOUR_INTERNSHIP_FILE.pdf" target="_blank">Upload Internship</a>
+            <a href="YOUR_CERTIFICATE_FILE.pdf" target="_blank">Certificates</a>
+        </div>
+        <p>Email: <a href="mailto:gangabhavanigandra@gmail.com">gangabhavanigandra@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/gangabhavanigandra" target="_blank">github.com/yourusername</a></p>
+</div>
 
-  <footer>
-    <p>© 2025 Gandra Gangabhavani. All rights reserved.</p>
-  </footer>
+    </section>
+
+    <footer>
+        <p>© 2025 Gangabhavani Gandra | All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
